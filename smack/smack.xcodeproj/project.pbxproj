@@ -12,6 +12,10 @@
 		914F582B2177232900BFD798 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F582A2177232900BFD798 /* LoginVC.swift */; };
 		914F582D217725D500BFD798 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F582C217725D400BFD798 /* CreateAccountVC.swift */; };
 		914F58302177549200BFD798 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F582F2177549200BFD798 /* AuthService.swift */; };
+		914F583221775EED00BFD798 /* roundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F583121775EED00BFD798 /* roundedBtn.swift */; };
+		914F58342177696D00BFD798 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F58332177696D00BFD798 /* UserDataService.swift */; };
+		914F58382177771C00BFD798 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F58372177771C00BFD798 /* AvatarPickerVC.swift */; };
+		914F583A217779DD00BFD798 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F5839217779DD00BFD798 /* AvatarCell.swift */; };
 		91F67FD421762BC70055D131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F67FD321762BC70055D131 /* AppDelegate.swift */; };
 		91F67FD621762BC70055D131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F67FD521762BC70055D131 /* ViewController.swift */; };
 		91F67FD921762BC70055D131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F67FD721762BC70055D131 /* Main.storyboard */; };
@@ -29,6 +33,10 @@
 		914F582A2177232900BFD798 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		914F582C217725D400BFD798 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		914F582F2177549200BFD798 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		914F583121775EED00BFD798 /* roundedBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedBtn.swift; sourceTree = "<group>"; };
+		914F58332177696D00BFD798 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		914F58372177771C00BFD798 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		914F5839217779DD00BFD798 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		91F67FD021762BC70055D131 /* smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F67FD321762BC70055D131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91F67FD521762BC70055D131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				914F582F2177549200BFD798 /* AuthService.swift */,
+				914F58332177696D00BFD798 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -145,6 +154,7 @@
 				91F67FF021762DC40055D131 /* ChannelVC.swift */,
 				914F582A2177232900BFD798 /* LoginVC.swift */,
 				914F582C217725D400BFD798 /* CreateAccountVC.swift */,
+				914F58372177771C00BFD798 /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				91F67FF2217631C10055D131 /* GradientView.swift */,
+				914F583121775EED00BFD798 /* roundedBtn.swift */,
+				914F5839217779DD00BFD798 /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,14 +297,18 @@
 			files = (
 				91F67FEE21762D910055D131 /* ChatVC.swift in Sources */,
 				91F67FD621762BC70055D131 /* ViewController.swift in Sources */,
+				914F583A217779DD00BFD798 /* AvatarCell.swift in Sources */,
 				914F582B2177232900BFD798 /* LoginVC.swift in Sources */,
 				91F67FF3217631C10055D131 /* GradientView.swift in Sources */,
 				91F67FD421762BC70055D131 /* AppDelegate.swift in Sources */,
 				914F582D217725D500BFD798 /* CreateAccountVC.swift in Sources */,
+				914F58342177696D00BFD798 /* UserDataService.swift in Sources */,
 				914F582921771EA100BFD798 /* Constants.swift in Sources */,
+				914F583221775EED00BFD798 /* roundedBtn.swift in Sources */,
 				914F58302177549200BFD798 /* AuthService.swift in Sources */,
 				91F67FE921762D220055D131 /* SWRevealViewController.m in Sources */,
 				91F67FF121762DC40055D131 /* ChannelVC.swift in Sources */,
+				914F58382177771C00BFD798 /* AvatarPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
